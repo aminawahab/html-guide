@@ -1,40 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<style>
-.item1 { grid-area:header;}
-.item2 { grid-area: menu;}
-.item3 { grid-area: main;}
-.item4 { grid-area: footer;}
-.grid-container {
-  display: grid;
-  grid-template-areas:
-  'header header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
-  gap: 10px;
-  background-color: rgb(105, 19, 197);
-  padding: 10px;
-}
-.grid-container > div {
-  background-color: rgba(217, 203, 237, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 45px;
-}
-</style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .item1 {
+      grid-area: header;
+    }
+    .item2 {
+      grid-area: menu;
+    }
+    .item3 {
+      grid-area: main;
+    }
+    .item4 {
+      grid-area: footer;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-areas:
+        'header header header header header header'
+        'menu main main main right right'
+        'menu footer footer footer footer footer';
+      gap: 10px;
+      background-color: rgb(105, 19, 197);
+      padding: 10px;
+    }
+
+    .grid-container>div {
+      background-color: rgba(217, 203, 237, 0.8);
+      text-align: center;
+      padding: 20px 0;
+      font-size: 45px;
+    }
+  </style>
 </head>
+
 <body>
-<h1 style="color:rgb(11, 11, 19); text-align:center;">MY DREAM</h1>
-<div class="grid-container">
-  <div class="item1"> <h2><i>Tiny Little World </h2></i></div>
-  <div class="item2"><ul list-style-type: circle><li>Infants</li><li>toodlers</li><li>preschoo</li></ul></div>
-  <div class="item3">Let the next <b> Generation</b> in the <b>safest </b> hands</div>  
-  <div class="item4"><b><i>Parents choice of Tiny little world creat big difference</b></i></div>
-</div>
+  <h1 style="color:rgb(11, 11, 19); text-align:center;">MY DREAM</h1>
+  <div class="grid-container">
+    <div class="item1">
+      <h2><i>Tiny Little World </h2></i>
+    </div>
+    <div class="item2">
+      <ul list-style-type: circle>
+        <li>Infants</li>
+        <li>toodlers</li>
+        <li>preschoo</li>
+      </ul>
+    </div>
+    <div class="item3">Let the next <b> Generation</b> in the <b>safest </b> hands</div>
+    <div class="item4"><b><i>Parents choice of Tiny little world creat big difference</b></i></div>
+  </div>
 </body>
+
 </html>
